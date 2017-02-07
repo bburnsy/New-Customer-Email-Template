@@ -13,7 +13,7 @@ If insp.IsWordMail Then
     Set wordDoc = insp.WordEditor
     
     'download the file from github'
-    wordDoc.Application.Selection.InsertFile "https://raw.githubusercontent.com/jjenksy/emailTemplate/master/emailHtmlTemplate.html", , False, False, False
+    wordDoc.Application.Selection.InsertFile "https://raw.githubusercontent.com/bburnsy/New-Customer-Email-Template/master/emailHtmlTemplate.html", , False, False, False
     
 End If
 
